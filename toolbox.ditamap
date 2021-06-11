@@ -3,6 +3,6 @@
 <map>
     <title>toolbox</title>
     <topicref href="topics/docx2md.md" format="markdown"/>
-    <topicref href="references.md" format="markdown"/>
-    <topicref href="titlecase_converter.md" format="markdown"/>
+    <topicref href="topics/titlecase_converter.md" format="markdown"/>
+    <topicref href="topics/references.md" format="markdown"/>
 </map>
