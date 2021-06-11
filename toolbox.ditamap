@@ -4,5 +4,11 @@
     <title>Toolbox</title>
     <topicref href="topics/docx2md.md" format="markdown"/>
     <topicref href="topics/titlecase_converter.md" format="markdown"/>
+    <topicref href="topics/gradle_build.md" format="markdown"/>
+    <topicref href="topics/regex_general-expressions.md" format="markdown"/>
+    <topicref href="topics/regex_xml-expressions.md" format="markdown"/>
+    <topicref href="topics/dita_conversion-from-docx.md" format="markdown"/>
+    <topicref href="topics/git_submodules.md" format="markdown"/>
+    <topicref href="topics/prerequisites_xml-editors.md" format="markdown"/>
     <topicref href="topics/references.md" format="markdown"/>
 </map>
