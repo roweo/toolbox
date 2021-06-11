@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>toolbox</title>
+    <title>Toolbox</title>
     <topicref href="topics/docx2md.md" format="markdown"/>
     <topicref href="topics/titlecase_converter.md" format="markdown"/>
     <topicref href="topics/references.md" format="markdown"/>
