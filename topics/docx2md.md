@@ -1,4 +1,4 @@
-# DOCX2MS Converter
+# DOCX2MD Converter
 
 This Bash script is intended to prepare Baxter CCDS word files for DITA conversion.
 
