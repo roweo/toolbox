@@ -1,4 +1,4 @@
-# Word to DITA \(via MarkDown\) {#convert-docx-to-dita .task}
+# Word to DITA \(via MarkDown\) {#convert-docx-to-dita}
 
 It is difficult to predict how well a conversion will go, but we can alleviate some known problems by starting with a well formatted Word doc - failing that, we can construct regular expressions to identify and correct problems in the MarkDown text. MarkDown is used here as a stepping stone to full `XML`.
 
@@ -18,7 +18,7 @@ Word document preparation:
     pandoc -f docx -t commonmark --wrap=none --markdown-headings=atx [input_filename.docx] -o [output_filename.md]
     ```
 
-3.  With the generated MarkDown file, process any text artifacts in a suitable text file editor \(e.g. using any appropriate [Regular Expressions](regex.md)\)
+3.  With the generated MarkDown file, process any text artifacts in a suitable text file editor \(e.g. using any appropriate Regex\)
 
 4.  Test the MarkDown document for DITA compliance within OxygenXML \(i.e.*does it render to DITA?*\)
 
@@ -32,8 +32,6 @@ Word document preparation:
 
 9.  Arrrange your topics appropriately and tidy up!
 
-
-**Parent topic:**[Converting to DITA](../topics/conversion.md)
 
 **Related information**  
 

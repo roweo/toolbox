@@ -126,4 +126,4 @@ Finds single line bolded strings starting with a digit and prepends with markdow
 | :-------------------: | :--------: |
 | `\[([^\]]*)\]\{.ul\}` | `##### $1` |
 
-**Parent topic:** [Regular Expressions](../topics/regex.md)
+

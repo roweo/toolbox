@@ -17,4 +17,4 @@ Once the submodule parent repo has been updated/pushed to the remote, the steps 
 
 If you have the submodule parent repo open on the same branch as the submodule you may get an error \(Sourcetree may complain that proceeding will delete local files\). If you changed files and wish to keep these changes, save them elsewhere. Checkout a different branch on the submodule parent repo and pull updates from the host repo again
 
-**Parent topic:**[Managing content using Git](../topics/git.md)
+

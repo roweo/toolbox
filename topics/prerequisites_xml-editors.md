@@ -38,4 +38,4 @@ VS Code is not a DITA specific editor, but it can be configured to validate DITA
 
 To inspect whether your DITA XML document is valid \(or receive suggested fixes for invalid markup\), open the **Problems** view by pressing Ctrl + Shift + M
 
-**Parent topic:**[XML Authoring](../topics/xml_authoring.md)
+
