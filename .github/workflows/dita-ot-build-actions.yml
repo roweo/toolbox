@@ -13,6 +13,6 @@ jobs:
       - name: Build PDF
         uses: dita-ot/dita-ot-action@master
         with:
-          input: document.ditamap
+          input: toolbox.ditamap
           transtype: pdf
           output-path: out
