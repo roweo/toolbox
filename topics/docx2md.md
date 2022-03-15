@@ -1,6 +1,6 @@
 # DOCX2MD Converter
 
-This Bash script is intended to prepare Baxter CCDS word files for DITA conversion. Custom `sed` expressions can be used to tune the result.
+This Bash script is intended to prepare CCDS word files for DITA conversion. Custom `sed` expressions can be used to tune the result.
 
 ## Dependencies: 
 
