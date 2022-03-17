@@ -11,7 +11,6 @@
     <topicref href="topics/git_submodules.md" format="markdown"/>
     <topicref href="topics/prerequisites_xml-editors.md" format="markdown"/>
     <topicref href="topics/references.md" format="markdown"/>
-    <topicref href="svgsyntaxdiagramtest.dita"/>
     <topicref href="topics/xfdf2bi.md" format="markdown"/>
     <topicref href="dockerbuildscripts.md" format="markdown"/>
 </map>
