@@ -117,15 +117,15 @@
 ### Create style block
 
 ```
-	"Create custom style": {
-		"prefix": "style",
+	"Create custom style block": {
+		"prefix": "style (block)",
 		"body": [
-		  "::: {custom-style=\"${1:style-name}\"}",
+		  "",
+		  "::: {custom-style=\"${1:style-name}\" .${2:class}}",
 		  "${TM_SELECTED_TEXT}",
-		  ":::"
+		  ":::",
+		  ""
 		],
-		"description": "Create custom style"
-	  },
 ```
 
 ### Create inline style
@@ -134,7 +134,7 @@
 "Create custom style span": {
 		"prefix": "style (inline)",
 		"body": [
-		  "[${TM_SELECTED_TEXT}]{custom-style=\"${1:style-name}\"}"
+		  "[${TM_SELECTED_TEXT:content}]{custom-style=\"${1:style-name}\"}"
 		],
 		"description": "Create custom style span"
 	  }
@@ -154,11 +154,11 @@
 
 ### Add video tag
 
-``` markdown
-	"Add video tag": {
+```
+	"Add video html tag": {
 		"prefix": "video",
 		"body": [
-		  "<video src=\"${1:href}\" controls>${2:description}</video>"
+		  "<video src=\"${TM_SELECTED_TEXT:href}\" controls>${1:description}</video>"
 		],
 		"description": "Add video tag"
 	  },
