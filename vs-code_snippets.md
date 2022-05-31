@@ -5,6 +5,8 @@
 ### Create table
 
 ```
+// Create table
+
     	"Create Markdown pipetable 2x2": {
 		"prefix": "table 2x2",
 		"body": [
